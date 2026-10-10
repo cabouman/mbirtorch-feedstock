@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: mbirtorch
-  version: "0.1.1"
+  version: "0.1.2"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
-  sha256: 87ba3f3efd096cd9d8fbb406d81840c52abb7118d6d484cd1d12faf4d5005cee
+  sha256: 8ac25d1fd094f799880b17132bd9eb8b5ce41e6806f56644f6ca3a3c4d16fb67
 
 build:
   noarch: python
